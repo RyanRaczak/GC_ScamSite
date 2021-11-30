@@ -1,0 +1,26 @@
+#pain{
+    background-color: #3c1642;
+    color: #affc41;
+    font-size: xx-large;
+    margin-right: 23%;
+    margin-left: 43%;
+}
+#ease, span{
+    background-color: #3c1642;
+    color: #086375;
+    margin-top: 500px;
+}
+.blink {
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    0% {
+    opacity: 1;
+    }
+    50% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
